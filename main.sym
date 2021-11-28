@@ -1,0 +1,156 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019-01A counter1
+01B-01C counter2
+01D-01E HZ1
+01F-020 HZ2
+021-022 j
+023-024 ADC_VALUE1
+025-026 ADC_VALUE2
+027-028 V1
+029-02A V2
+02B-02C phase_time
+02D.0   g_flag
+02D.1   start_flag
+02D.2   f_s_start
+02E-031 @MULFF.P1
+02E-031 @SFTOI.P2
+02E     lcd_init.i
+02E-02F @ITOF.P1
+02E     MAIN.@SCRATCH1
+02F     lcd_init.@SCRATCH1
+02F     MAIN.@SCRATCH2
+030     @PSTRINGCN_108.P1
+030-031 @PRINTF_LU_108.P2
+031     @PSTRINGCN_108.@SCRATCH1
+032-035 @MULFF.P1
+032     @PRINTF_LU_108.@SCRATCH1
+032     @PSTRINGCN_108.@SCRATCH2
+033     @PRINTF_LU_108.@SCRATCH2
+034     @PRINTF_LU_108.@SCRATCH3
+035     @PRINTF_LU_108.@SCRATCH4
+036     @MULFF.@SCRATCH1
+036     @PRINTF_LU_108.@SCRATCH5
+037     @MULFF.@SCRATCH2
+037     @PRINTF_LU_108.@SCRATCH6
+038     @MULFF.@SCRATCH3
+038     @PRINTF_LU_108.@SCRATCH7
+039     lcd_putc.c
+03A     @delay_ms1.P1
+03A     lcd_gotoxy.x
+03B     lcd_gotoxy.y
+03C     lcd_gotoxy.address
+03D     lcd_gotoxy.@SCRATCH1
+03E     lcd_send_byte.address
+03F     lcd_send_byte.n
+040     lcd_read_byte.low
+040     lcd_send_byte.@SCRATCH1
+041     lcd_read_byte.high
+041     lcd_send_nibble.n
+042     lcd_read_byte.@SCRATCH1
+F83     PSP_DATA
+F83     lcd
+F8C     lcdlat
+F95     lcdtris
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+019E  @delay_ms1
+00E6  RTCC_isr
+010C  time1_isr
+011E  EXT_isr
+014E  EXT1_isr
+00D2  LCD_INIT_STRING
+01EA  lcd_read_byte
+01DE  lcd_read_nibble
+01C6  lcd_send_nibble
+0228  lcd_send_byte
+0262  lcd_init
+02BE  lcd_gotoxy
+02E0  lcd_putc
+0562  MAIN
+0332  @ITOF
+0368  @MULFF
+045A  @SFTOI
+0492  @PRINTF_LU_108
+017E  @const127
+0544  @PSTRINGCN_108
+0188  @const131
+0192  @const132
+0562  @cinit1
+0574  @cinit2
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    E:\Embedded firmware and Electronic +wilcom design\PROGRAMS\Amir SB\Volt Frequance Phase Angle\
+
+Project Files:
+    main.c                                                  [16-Aug-12 02:14  CRC=62DE0197]
+    main.h                                                  [15-Aug-12 20:41  CRC=5E9E5931]
+    C:\Program Files\PICC\devices\18F452.h                  [28-Feb-12 13:44  CRC=B966D23F]
+    C:\Program Files\PICC\drivers\lcd.c                     [24-Oct-11 11:06  CRC=9ABC6C7D]
+
+Source signature=B05C0601
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.STA

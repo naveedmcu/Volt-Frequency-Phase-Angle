@@ -1,0 +1,5 @@
+>>> Warning 202 "main.c" Line 2(38,39): Variable never used:   j
+>>> Warning 202 "main.c" Line 8(6,12): Variable never used:   g_flag
+      Memory usage:   ROM=7%      RAM=3% - 4%
+      0 Errors,  2 Warnings.
+Build Successful.

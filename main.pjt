@@ -1,0 +1,30 @@
+[PROJECT]
+Target=E:\Embedded firmware and Electronic +wilcom design\PROGRAMS\Amir SB\Volt Frequance Phase Angle\main.hex
+Development_Mode=
+Processor_Text=PIC18F452
+ToolSuite=CCS
+Processor=0x452F
+[E:\Embedded firmware and Electronic +wilcom design\PROGRAMS\Amir SB\Volt Frequance Phase Angle\main]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=E:\Embedded firmware and Electronic +wilcom design\PROGRAMS\Amir SB\Volt Frequance Phase Angle\main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=main.c
+2=C:\Program Files\PICC\drivers\lcd.c
+3=
+4=lcd_pin_compatible.c
+5=LCD16X4.c
+6=
+[Target Data]
+OptionString=-p +FH
+FileList=E:\Embedded firmware and Electronic +wilcom design\PROGRAMS\Amir SB\Volt Frequance Phase Angle\main.c
+[Units]
+Count=1
+1=main (main)

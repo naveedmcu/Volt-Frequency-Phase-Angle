@@ -1,0 +1,68 @@
+
+ROM used: 2148 (7%)
+          2148 (7%) including unused fragments
+
+          2 Average locations per line
+          10 Average locations per statement
+
+RAM used: 48 (3%) at main() level
+          67 (4%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  194    98  48  main.c
+   14     0   0  main.h
+  358     0   0  C:\Program Files\PICC\devices\18F452.h
+  409   108  52  C:\Program Files\PICC\drivers\lcd.c
+----- -----
+  975   206 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   1   1             @delay_ms1
+0     38   1   0    94  1.7  RTCC_isr
+0     18   0   0    74  1.6  time1_isr
+0     48   1   0   219  3.6  EXT_isr
+0     48   1   0   233  2.4  EXT1_isr
+0     20   0   0   587  6.0  @const91
+0     62   1   3   587  6.0  lcd_read_byte
+0     12   0   0    59  4.2  lcd_read_nibble
+0     24   1   1   172  3.4  lcd_send_nibble
+0     58   1   3   447  4.6  lcd_send_byte
+0     92   2   2   658  5.9  lcd_init
+0     34   1   4   191  5.8  lcd_gotoxy
+0     82   2   1   354  4.7  lcd_putc
+0    774  18   2  2238  5.9  MAIN
+0     54   1   2    25  1.2  @ITOF
+0    242   6  11    25  1.2  @MULFF
+0     56   1   4  1197  3.4  @SFTOI
+0    178   4   9    25  1.2  @PRINTF_LU_108
+0     10   0   0  1197  3.4  @const127
+0     30   1   3             @PSTRINGCN_108
+0     10   0   0             @const131
+0     12   0   0             @const132
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               18
+    Statements              206
+    Comments                181
+    Volume (V)              13342
+    Difficulty (D)          66.1
+    Effort to implement (E) 881704
+    Time to implement (T)   13 hours, 36 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   16
+    Maintainability (MI)    48
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000D0   202  0  
+000D2-07FFE  1942  30616  
+
+
+
